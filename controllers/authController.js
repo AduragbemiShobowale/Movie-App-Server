@@ -1,7 +1,6 @@
 const User = require("../models/user");
 const bcrypt = require("bcrypt");
 const customError = require("../utils/customError");
-const error = require("../middlewares/error");
 const jwt = require("jsonwebtoken");
 //register
 
